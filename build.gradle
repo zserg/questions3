@@ -2,6 +2,7 @@ plugins {
 	id 'org.springframework.boot' version '2.4.5'
 	id 'io.spring.dependency-management' version '1.0.11.RELEASE'
 	id 'java'
+	id 'com.google.cloud.tools.jib' version '3.0.0'
 }
 
 group = 'ru.zserg'
@@ -20,4 +21,20 @@ dependencies {
 
 test {
 	useJUnitPlatform()
+}
+
+jib {
+	from {
+		image = 'openjdk:11.0.11-jre'
+	}
+	to {
+		image = 'docker.io/zserg/questions'
+		credHelper = 'pass'
+		tags = ['0.1', 'latest']
+	}
+	container {
+		jvmFlags = ['-Dmy.property=example.value', '-Xms512m', '-Xdebug']
+		mainClass = 'ru.zserg.questions.QuestionsApplication'
+		format = 'Docker'
+	}
 }
