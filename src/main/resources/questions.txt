@@ -53,3 +53,164 @@ Which methods are used during the Serialization and Deserialization process?
 What is the purpose of a Volatile Variable?
 Difference between Serialization and Deserialization in Java.
 What is SerialVersionUID?
+What is the Collection framework in Java?
+What are the main differences between array and collection?
+Explain various interfaces used in Collection framework?
+What is the difference between ArrayList and Vector?
+What is the difference between ArrayList and LinkedList?
+What is the difference between Iterator and ListIterator?
+What is the difference between Iterator and Enumeration?
+What is the difference between List and Set?
+What is the difference between HashSet and TreeSet?
+What is the difference between Set and Map?
+What is the difference between HashSet and HashMap?
+What is the difference between HashMap and TreeMap?
+What is the difference between HashMap and Hashtable?
+What is the difference between Collection and Collections?
+What is the difference between Comparable and Comparator?
+What do you understand by BlockingQueue?
+What is the advantage of Properties file?
+What does the hashCode() method?
+Why we override equals() method?
+How to synchronize List, Set and Map elements?
+What is the advantage of the generic collection?
+What is hash-collision in Hashtable and how it is handled in Java?
+What is the Dictionary class?
+What is the default size of load factor in hashing based collection?
+What do you understand by fail-fast?
+What is the difference between Array and ArrayList?
+What is the difference between the length of an Array and size of ArrayList?
+How to convert ArrayList to Array and Array to ArrayList?
+How to make Java ArrayList Read-Only?
+How to remove duplicates from ArrayList?
+How to reverse ArrayList?
+How to sort ArrayList in descending order?
+How to synchronize ArrayList?
+When to use ArrayList and LinkedList?
+What is Spring Framework?
+What are the features of Spring Framework?
+What is a Spring configuration file?
+What do you mean by IoC (Inversion of Control) Container?
+What do you understand by Dependency Injection?
+Explain the difference between constructor and setter injection?
+What are Spring Beans?
+How is the configuration meta data provided to the spring container?
+What are the bean scopes available in Spring?
+Explain Bean life cycle in Spring Bean Factory Container.
+What do you understand by Bean Wiring.
+What is auto wiring and name the different modes of it?
+What are the limitations of auto wiring?
+What do you understand by the term &#39;Spring Boot&#39;?
+Explain the advantages of using Spring Boot for application development.
+Differentiate between Spring and Spring Boot.
+What are the features of Spring Boot?
+What does @SpringBootApplication annotation do internally?
+What are the effects of running Spring Boot Application as &quot;Java Application&quot;?
+What is Spring Boot dependency management system?
+What are the possible sources of external configuration?
+Can we change the default port of the embedded Tomcat server in Spring boot?
+Can you tell how to exclude any package without using the basePackages filter?
+How to disable specific auto-configuration class?
+Can the default web server in the Spring Boot application be disabled?
+What are the uses of @RequestMapping and @RestController annotations in Spring Boot?
+What is the Spring MVC framework?
+What are the benefits of Spring MVC framework over other MVC frameworks?
+What is DispatcherServlet in Spring MVC?
+What is a View Resolver pattern and explain its significance in Spring MVC?
+How is Validation supported in Spring MVC?
+What is the @Controller annotation used for?
+Can you create a controller without using @Controller or @RestController annotations?
+What is ContextLoaderListener and what does it do?
+What are the differences between @RequestParam and @PathVariable annotations?
+What is the Model in Spring MVC?
+What is Spring AOP?
+What is an advice? Explain its types in spring.
+What is Spring AOP Proxy pattern?
+What are some of the classes for Spring JDBC API?
+How can you fetch records by Spring JdbcTemplate?
+What is Hibernate ORM Framework?
+What are the two ways of accessing Hibernate by using Spring.
+What is Hibernate Validator Framework?
+What is HibernateTemplate class?
+SQL: What is Database?
+SQL: What is DBMS?
+SQL: What is RDBMS? How is it different from DBMS?
+SQL: What is SQL?
+SQL: What is the difference between SQL and MySQL?
+SQL: What are Tables and Fields?
+SQL: What are Constraints in SQL?
+SQL: What is a Primary Key?
+SQL: What is a UNIQUE constraint?
+SQL: What is a Foreign Key?
+SQL: What is a Join? List its different types.
+SQL: What is a Self-Join?
+SQL: What is a Cross-Join?
+SQL: What is an Index? Explain its different types.
+SQL: What is the difference between Clustered and Non-clustered index?
+SQL: What is Data Integrity?
+SQL: What is a Query?
+SQL: What is a Subquery? What are its types?
+SQL: What is the SELECT statement?
+SQL: What are some common clauses used with SELECT query in SQL?
+SQL: What are UNION, MINUS and INTERSECT commands?
+SQL: What is Cursor? How to use a Cursor?
+SQL: What are Entities and Relationships?
+SQL: List the different types of relationships in SQL.
+SQL: What is an Alias in SQL?
+SQL: What is a View?
+SQL: What is Normalization?
+SQL: What is Denormalization?
+SQL: What are the various forms of Normalization?
+SQL: What are the TRUNCATE, DELETE and DROP statements?
+SQL: What is the difference between DROP and TRUNCATE statements?
+SQL: What is the difference between DELETE and TRUNCATE statements?
+SQL: What are Aggregate and Scalar functions?
+SQL: What is User-defined function? What are its various types?
+SQL: What is OLTP?
+SQL: What are the differences between OLTP and OLAP?
+SQL: What is Collation? What are the different types of Collation Sensitivity?
+SQL: What is a Stored Procedure?
+SQL: What is a Recursive Stored Procedure?
+SQL: How to create empty tables with the same structure as another table?
+SQL: What is Pattern Matching in SQL?
+Data structures: Data structures in C, Java
+Data structures: Can you explain the difference between file structure and storage structure?
+Data structures: Can you tell how linear data structures differ from non-linear data structures?
+Data structures: What is an array?
+Data structures: What is a multidimensional array?
+Data structures: What is a linked list?
+Data structures: Are linked lists of linear or non-linear type?
+Data structures: How are linked lists more efficient than arrays?
+Data structures: Explain the scenarios where you can use linked lists and arrays.
+Data structures: What is a doubly-linked list (DLL)? What are its applications.
+Data structures: What is a stack? What are the applications of stack?
+Data structures: What is a queue? What are the applications of queue?
+Data structures: How is a stack different from a queue?
+Data structures: Explain the process behind storing a variable in memory.
+Data structures: How to implement a queue using stack?
+Data structures: How do you implement stack using queues?
+Data structures: What is hashmap in data structure?
+Data structures: What is the requirement for an object to be used as key or value in HashMap?
+Data structures: How does HashMap handle collisions in Java?
+Data structures: What is the time complexity of basic operations get() and put() in HashMap class?
+Data structures: Which data structures are used for implementing LRU cache?
+Data structures: What is a priority queue?
+Data structures: Can we store a duplicate key in HashMap?
+Data structures: What is a tree data structure?
+Data structures: What are Binary trees?
+Data structures: What is the maximum number of nodes in a binary tree of height k?
+Data structures: Write a recursive function to calculate the height of a binary tree in Java.
+Data structures: Write Java code to count number of nodes in a binary tree.
+Data structures: What are tree traversals?
+Data structures: What is a Binary Search Tree?
+Data structures: What is an AVL Tree?
+Data structures: Print Left view of any binary trees.
+Data structures: What is a graph data structure?
+Data structures: What are the applications of graph data structure?
+Data structures: How do you represent a graph?
+Data structures: What is the difference between tree and graph data structure?
+Data structures: What is the difference between the Breadth First Search (BFS) and Depth First Search (DFS)?
+Data structures: How do you know when to use DFS over BFS?
+Data structures: What is topological sorting in a graph?
+Data structures: Given an m x n 2D grid map of '1’s which represents land and '0’s that represents water, return the number of islands (surrounded by water and formed by connecting adjacent lands in 2 directions - vertically or horizontally). Assume that the boundary cases - which is all four edges of the grid are surrounded by water.Constraints are:
+Data structures: What is a heap data structure?
