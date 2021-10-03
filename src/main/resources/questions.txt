@@ -53,6 +53,41 @@ Which methods are used during the Serialization and Deserialization process?
 What is the purpose of a Volatile Variable?
 Difference between Serialization and Deserialization in Java.
 What is SerialVersionUID?
+What is a Spring configuration file?                                                                                                                                                                                                   What do you mean by IoC (Inversion of Control) Container?
+What do you understand by Dependency Injection?
+Explain the difference between constructor and setter injection?
+What are Spring Beans?
+How is the configuration meta data provided to the spring container?                                                                                                                                                                   What are the bean scopes available in Spring?
+Explain Bean life cycle in Spring Bean Factory Container.
+What do you understand by Bean Wiring.
+What is auto wiring and name the different modes of it?
+What are the limitations of auto wiring?
+What do you understand by the term 'Spring Boot'?                                                                                                                                                                                      Explain the advantages of using Spring Boot for application development.
+Differentiate between Spring and Spring Boot.
+What are the features of Spring Boot?                                                                                                                                                                                                  What does @SpringBootApplication annotation do internally?
+What are the effects of running Spring Boot Application as "Java Application"?
+What is Spring Boot dependency management system?
+What are the possible sources of external configuration?
+Can we change the default port of the embedded Tomcat server in Spring boot?
+Can you tell how to exclude any package without using the basePackages filter?
+How to disable specific auto-configuration class?
+Can the default web server in the Spring Boot application be disabled?
+What are the uses of @RequestMapping and @RestController annotations in Spring Boot?
+What is the Spring MVC framework?
+What are the benefits of Spring MVC framework over other MVC frameworks?
+What is DispatcherServlet in Spring MVC?
+What is a View Resolver pattern and explain its significance in Spring MVC?
+How is Validation supported in Spring MVC?                                                                                                                                                                                             What is the @Controller annotation used for?
+Can you create a controller without using @Controller or @RestController annotations?
+What is ContextLoaderListener and what does it do?
+What are the differences between @RequestParam and @PathVariable annotations?
+What is the Model in Spring MVC?
+What is Spring AOP?
+What is an advice? Explain its types in spring.
+What is Spring AOP Proxy pattern?
+What are some of the classes for Spring JDBC API?
+How can you fetch records by Spring JdbcTemplate?
+What is Hibernate ORM Framework?                                                                                                                                                                                                       What are the two ways of accessing Hibernate by using Spring.                                                                                                                                                                          What is Hibernate Validator Framework?                                                                                                                                                                                                 What is HibernateTemplate class?                                                                                                                                                                                                      ~
 What is the Collection framework in Java?
 What are the main differences between array and collection?
 Explain various interfaces used in Collection framework?

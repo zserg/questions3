@@ -29,7 +29,7 @@ jib {
 	}
 	to {
 		image = 'docker.io/zserg/questions'
-		credHelper = 'pass'
+		credHelper = credHelperVal
 		tags = ['0.1', 'latest']
 	}
 	container {
