@@ -1,0 +1,14 @@
+#Q:Tell me about yourself?
+about myself
+yes...
+#Q:Can you tell me about your professional background?
+#Q:Where are you in your job search?
+#Q:Why are you looking for a new job?
+#Q:What am I looking for?
+#Q:what are you looking in your next job?
+#Q:what your strength and weaknesses?
+#Q:Your project: adm
+#Q:Your project: cameroon
+#Q:Your project: rwanda
+#Q:Your project: tms
+#Q:

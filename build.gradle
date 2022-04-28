@@ -7,7 +7,7 @@ plugins {
 
 group = 'ru.zserg'
 version = '0.0.1-SNAPSHOT'
-sourceCompatibility = '10'
+sourceCompatibility = "17"
 
 repositories {
 	mavenCentral()
@@ -16,6 +16,9 @@ repositories {
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
 	implementation 'org.springframework.boot:spring-boot-starter-web'
+	implementation 'commons-io:commons-io:2.11.0'
+	compileOnly 'org.projectlombok:lombok'
+	annotationProcessor 'org.projectlombok:lombok'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
 
@@ -25,10 +28,10 @@ test {
 
 jib {
 	from {
-		image = 'openjdk:11.0.11-jre'
+		image = 'openjdk:17.0.2'
 	}
 	to {
-		image = 'docker.io/zserg/questions'
+		image = 'docker.io/zserg/questions3'
 		credHelper = credHelperVal
 		tags = ['0.1', 'latest']
 	}

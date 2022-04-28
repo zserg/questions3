@@ -1,0 +1,304 @@
+1) Can we make array volatile in Java?
+2) Can volatile make a non-atomic operation to atomic?
+3) What are practical uses of volatile modifier? 
+4) What guarantee volatile variable provides? (answer)
+5) Which one would be easy to write? synchronization code for 10 threads or 2 threads?
+6) How do you call wait() method? using if block or loop? Why? (answer)
+7)  What is false sharing in the context of multi-threading? 
+8) What is busy spin? Why should you use it?
+9) How do you take thread dump in Java?
+10) is Swing thread-safe? (answer)
+11) What is a thread local variable in Java? (answer)
+12) Write wait-notify code for producer-consumer problem? (answer)
+13) Write code for thread-safe Singleton in Java? (answer)
+14) The difference between sleep and wait in Java? (answer)
+15) What is an immutable object? How do you create an Immutable object in Java? (answer)
+16) Can we create an Immutable object, which contains a mutable object?
+17) What is the right data type to represent a price in Java? (answer)
+18) How do you convert bytes to String? (answer)
+19) How do you convert bytes to long in Java? (answer)
+20) Can we cast an int value into byte variable? what will happen if the value of int is larger than byte?
+21) There are two classes B extends A and C extends B, Can we cast B into C e.g. C = (C) B; (answer)
+22) Which class contains clone method? Cloneable or Object? (answer)
+23) Is ++ operator is thread-safe in Java? (answer)
+24) Difference between a = a + b and a += b ? (answer)
+25) Can I store a double value in a long variable without casting? (answer)
+26) What will this return 3*0.1 == 0.3? true or false? (answer)
+27) Which one will take more memory, an int or Integer? (answer)
+28) Why is String Immutable in Java? (answer)
+29) Can we use String in the switch case? (answer)
+30) What is constructor chaining in Java? (answer)
+31) What is the size of int in 64-bit JVM?
+32) The difference between Serial and Parallel Garbage Collector? (answer)
+33) What is the size of an int variable in 32-bit and 64-bit JVM? (answer)
+34) A difference between WeakReference and SoftReference in Java? (answer)
+35) How do WeakHashMap works? (answer)
+36) What is -XX:+UseCompressedOops JVM option? Why use it? (answer)
+37) How do you find if JVM is 32-bit or 64-bit from Java Program? (answer)
+38) What is the maximum heap size of 32-bit and 64-bit JVM? (answer)
+39) What is the difference between JRE, JDK, JVM and JIT? (answer)
+40) Explain Java Heap space and Garbage collection? (answer)
+41) Can you guarantee the garbage collection process? (answer)
+42) How do you find memory usage from Java program? How much percent of the heap is used?
+43) What is the difference between stack and heap in Java? (answer)
+44) What's the difference between "a == b" and "a.equals(b)"? (answer)
+45) What is a.hashCode() used for? How is it related to a.equals(b)? (answer)
+46) Difference between final, finalize and finally? (answer)
+47) What is a compile time constant in Java? What is the risk of using it?
+48) The difference between List, Set, Map, and Queue in Java? (answer)
+49) Difference between poll() and remove() method?
+50) The difference between LinkedHashMap and PriorityQueue in Java? (answer)
+51) Difference between ArrayList and LinkedList in Java? (answer)
+52) What is a couple of ways that you could sort a collection? (answer)
+53) How do you print Array in Java? (answer)
+54) LinkedList in Java is doubly or singly linked list? (answer)
+55) Which kind of tree is used to implement TreeMap in Java? (answer)
+56) What is the difference between Hashtable and HashMap? (answer)
+57) How HashSet works internally in Java? (answer)
+58) Write code to remove elements from ArrayList while iterating? (answer)
+59) Can I write my own container class and use it in the for-each loop?
+60) What is default size of ArrayList and HashMap in Java? (answer)
+61) Is it possible for two unequal objects to have the same hashcode?
+62) Can two equal object have the different hash code?
+63) Can we use random numbers in the hashcode() method? (answer)
+64) What is the difference between Comparator and Comparable in Java? (answer)
+65) Why you need to override hashcode, when you override equals in Java? (answer)
+66) In my Java program, I have three sockets? How many threads I will need to handle that?
+67) How do you create ByteBuffer in Java?
+68) How do you write and read from ByteBuffer in Java?
+69) Is Java BIG endian or LITTLE endian?
+70) What is the byte order of ByteBuffer?
+71) The difference between direct buffer and non-direct buffer in Java? (answer)
+72) What is the memory mapped buffer in Java? (answer)
+73) What is TCP NO DELAY socket option?
+74) What is the difference between TCP and UDP protocol? (answer)
+75) The difference between ByteBuffer and StringBuffer in Java? (answer)
+76) What best practices you follow while writing multi-threaded code in Java? (answer)
+77) Tell me few best practices you apply while using Collections in Java? (answer)
+78) Can you tell us at least 5 best practice you use while using threads in Java? (answer)
+79) Name 5 IO best practices? (answer)
+80) Name 5 JDBC best practices your follow? (answer)
+81) Name couple of method overloading best practices in Java? (answer)
+82) Does SimpleDateFormat is safe to use in the multi-threaded program? (answer)
+83) How do you format a date in Java? e.g. in the ddMMyyyy format? (answer)
+84) How do you show timezone in formatted date in Java? (answer)
+85) The difference between java.util.Date and java.sql.Date in Java? (answer)
+86) How to you calculate the difference between two dates in Java? (program)
+87) How do you convert a String(YYYYMMDD) to date in Java? (answer)
+89) How do you test static method? (answer)
+90) How to do you test a method for an exception using JUnit? (answer)
+91) Which unit testing libraries you have used for testing Java programs? (answer)
+92) What is the difference between @Before and @BeforeClass annotation? (answer)
+93) How to check if a String contains only numeric digits? (solution)
+94) How to write LRU cache in Java using Generics? (answer)
+95) Write a Java program to convert bytes to long? (answer)
+96) How to reverse a String in Java without using StringBuffer? (solution)
+97) How to find the word with the highest frequency from a file in Java? (solution)
+98) How do you check if two given String are anagrams? (solution)
+99) How to print all permutation of a String in Java? (solution)
+100) How do you print duplicate elements from an array in Java? (solution)
+101) How to convert String to int in Java? (solution)
+102) How to swap two integers without using temp variable? (solution)
+103) What is the interface? Why you use it if you cannot write anything concrete on it?
+104) The difference between abstract class and interface in Java? (answer)
+105) Which design pattern have you used in your production code? apart from Singleton?
+106) Can you explain Liskov Substitution principle? (answer)
+107) What is Law of Demeter violation? Why it matters? (answer)
+108) What is Adapter pattern? When to use it?
+109) What is "dependency injection" and "inversion of control"? Why would someone use it? (answer)
+110) What is an abstract class? How is it different from an interface? Why would you use it? (answer)
+111) Which one is better constructor injection or setter dependency injection? (answer)
+112) What is difference between dependency injection and factory design pattern? (answer)
+113) Difference between Adapter and Decorator pattern? (answer)
+114) Difference between Adapter and Proxy Pattern? (answer)
+115) What is Template method pattern? (answer)
+116) When do you use Visitor design pattern? (answer)
+117) When do you use Composite design pattern? (answer)
+118) The difference between Inheritance and Composition? (answer)
+119) Describe overloading and overriding in Java? (answer)
+120) The difference between nested public static class and a top level class in Java? (answer)
+121) Difference between Composition, Aggregation and Association in OOP? (answer)
+122) Give me an example of design pattern which is based upon open closed principle? (answer)
+123) Difference between Abstract factory and Prototype design pattern? (answer)
+124) When do you use Flyweight pattern? (answer)
+125) The difference between nested static class and top level class? (answer)
+126) Can you write a regular expression to check if String is a number? (solution)
+127) The difference between checked and unchecked Exception in Java? (answer)
+128) The difference between throw and throws in Java? (answer)
+129) The difference between Serializable and Externalizable in Java? (answer)
+130) The difference between DOM and SAX parser in Java? (answer)
+131) Tell me 3 features introduced on JDK 1.7? (answer)
+132) Tell me 5 features introduced in JDK 1.8? (answer)
+133) What is the difference between Maven and ANT in Java? (answer)
+Q1. Describe the Collections Type Hierarchy. What Are the Main Interfaces, and What Are the Differences Between Them?
+Q2. Describe Various Implementations of the Map Interface and Their Use Case Differences.
+Q3. Explain the Difference Between Linkedlist and Arraylist.
+Q4. What Is the Difference Between Hashset and Treeset?
+Q5. How Is Hashmap Implemented in Java? How Does Its Implementation Use Hashcode and Equals Methods of Objects? What Is the Time Complexity of Putting and Getting an Element from Such Structure?
+Q6. What Is the Purpose of the Initial Capacity and Load Factor Parameters of a Hashmap? What Are Their Default Values?
+Q7. Describe Special Collections for Enums. What Are the Benefits of Their Implementation Compared to Regular Collections?
+Q8. What Is the Difference Between Fail-Fast and Fail-Safe Iterators?
+Q9. How Can You Use Comparable and Comparator Interfaces to Sort Collections?
+Q1. Describe the Place of the Object Class in the Type Hierarchy. Which Types Inherit from Object, and Which Don’t? Do Arrays Inherit from Object? Can a Lambda Expression Be Assigned to an Object Variable?
+Q2. Explain the Difference Between Primitive and Reference Types.
+Q3. Describe the Different Primitive Types and the Amount of Memory They Occupy.
+Q4. What Is the Difference Between an Abstract Class and an Interface? What Are the Use Cases of One and the Other?
+Q5. What Are the Restrictions on the Members (Fields and Methods) of an Interface Type?
+Q6. What Is the Difference Between an Inner Class and a Static Nested Class?
+Q7. Does Java Have Multiple Inheritance?
+Q8. What Are the Wrapper Classes? What Is Autoboxing?
+Q9. Describe the Difference Between equals() and ==
+Q10. Suppose You Have a Variable That References an Instance of a Class Type. How Do You Check That an Object Is an Instance of This Class?
+Q11. What Is an Anonymous Class? Describe Its Use Case.
+Q1. What Is the Difference Between a Process and a Thread?
+Q2. How Can You Create a Thread Instance and Run It?
+Q3. Describe the Different States of a Thread and When Do the State Transitions Occur.
+Q4. What Is the Difference Between the Runnable and Callable Interfaces? How Are They Used?
+Q5. What Is a Daemon Thread, What Are Its Use Cases? How Can You Create a Daemon Thread?
+Q6. What Is the Thread’s Interrupt Flag? How Can You Set and Check It? How Does It Relate to the Interruptedexception?
+Q7. What Are Executor and Executorservice? What Are the Differences Between These Interfaces?
+Q8. What Are the Available Implementations of Executorservice in the Standard Library?
+Q9. What Is Java Memory Model (Jmm)? Describe Its Purpose and Basic Ideas.
+Q10. What Is a Volatile Field and What Guarantees Does the Jmm Hold for Such Field?
+Q11. Which of the Following Operations Are Atomic?
+Q12. What Special Guarantees Does the Jmm Hold for Final Fields of a Class?
+Q13. What Is the Meaning of a Synchronized Keyword in the Definition of a Method? of a Static Method? Before a Block?
+Q14. If Two Threads Call a Synchronized Method on Different Object Instances Simultaneously, Could One of These Threads Block? What If the Method Is Static?
+Q15. What Is the Purpose of the Wait, Notify and Notifyall Methods of the Object Class?
+Q16. Describe the Conditions of Deadlock, Livelock, and Starvation. Describe the Possible Causes of These Conditions.
+Q17. Describe the Purpose and Use-Cases of the Fork/Join Framework.
+Q1. Describe the Meaning of the Final Keyword When Applied to a Class, Method, Field or a Local Variable.
+Q2. What Is a Default Method?
+Q3. What Are Static Class Members?
+Q4. May a Class Be Declared Abstract If It Does Not Have Any Abstract Members? What Could Be the Purpose of Such Class?
+Q5. What Is Constructor Chaining?
+Q6. What Is Overriding and Overloading of Methods? How Are They Different?
+Q7. Can You Override a Static Method?
+Q8. What Is an Immutable Class, and How Can You Create One?
+Q9. How Do You Compare Two Enum Values: With equals() or With ==?
+Q10. What Is an Initializer Block? What Is a Static Initializer Block?
+Q11. What Is a Marker Interface? What Are the Notable Examples of Marker Interfaces in Java?
+Q12. What Is a Singleton and How Can It Be Implemented in Java?
+Q13. What Is a Var-Arg? What Are the Restrictions on a Var-Arg? How Can You Use It Inside the Method Body?
+Q14. Can You Access an Overridden Method of a Superclass? Can You Access an Overridden Method of a Super-Superclass in a Similar Way?
+Q1. What New Features Were Added in Java 8?
+Q1. What Is a Method Reference?
+Q2. What Is the Meaning of String::Valueof Expression?
+Q1. What Is Optional? How Can It Be Used?
+Q1. Describe Some of the Functional Interfaces in the Standard Library
+Q2. What Is a Functional Interface? What Are the Rules of Defining a Functional Interface?
+Q1. What Is a Default Method and When Do We Use It?
+Q2. Will the Following Code Compile?
+Q1. What Is a Lambda Expression and What Is It Used For?
+Q2. Explain the Syntax and Characteristics of a Lambda Expression
+Q1. What Is Nashorn in Java8?
+Q2. What Is JJS?
+Q1. What Is a Stream? How Does It Differ From a Collection?
+Q2. What Is the Difference Between Intermediate and Terminal Operations?
+Q3. What Is the Difference Between Map and flatMap Stream Operation?
+Q4. What Is Stream Pipelining in Java 8?
+Q1. Tell Us About the New Date and Time API in Java 8
+Q1. What Does the Statement “Memory Is Managed in Java” Mean?
+Q2. What Is Garbage Collection and What Are Its Advantages?
+Q3. Are There Any Disadvantages of Garbage Collection?
+Q4. What Is the Meaning of the Term “Stop-The-World”?
+Q5. What Are Stack and Heap? What Is Stored in Each of These Memory Structures, and How Are They Interrelated?
+Q6. What Is Generational Garbage Collection and What Makes It a Popular Garbage Collection Approach?
+Q7. Describe in Detail How Generational Garbage Collection Works
+Q8. When Does an Object Become Eligible for Garbage Collection? Describe How the Gc Collects an Eligible Object?
+Q9. How Do You Trigger Garbage Collection from Java Code?
+Q10. What Happens When There Is Not Enough Heap Space to Accommodate Storage of New Objects?
+Q11. Is It Possible to «Resurrect» an Object That Became Eligible for Garbage Collection?
+Q12. Describe Strong, Weak, Soft and Phantom References and Their Role in Garbage Collection.
+Q13. Suppose We Have a Circular Reference (Two Objects That Reference Each Other). Could Such Pair of Objects Become Eligible for Garbage Collection and Why?
+Q14. How Are Strings Represented in Memory?
+Q15. What Is a Stringbuilder and What Are Its Use Cases? What Is the Difference Between Appending a String to a Stringbuilder and Concatenating Two Strings with a + Operator? How Does Stringbuilder Differ from Stringbuffer?
+Q1. What Is a Generic Type Parameter?
+Q2. What Are Some Advantages of Using Generic Types?
+Q3. What Is Type Erasure?
+Q4. If a Generic Type Is Omitted When Instantiating an Object, Will the Code Still Compile?
+Q5. How Does a Generic Method Differ from a Generic Type?
+Q6. What Is Type Inference?
+Q7. What Is a Bounded Type Parameter?
+Q8. Is It Possible to Declared a Multiple Bounded Type Parameter?
+Q9. What Is a Wildcard Type?
+Q10. What Is an Upper Bounded Wildcard?
+Q11. What Is an Unbounded Wildcard?
+Q12. What Is a Lower Bounded Wildcard?
+Q13. When Would You Choose to Use a Lower Bounded Type vs. an Upper Bounded Type?
+Q14. Are There Any Situations Where Generic Type Information Is Available at Runtime?
+Q1. Describe the if-then and if-then-else Statements. What Types of Expressions Can Be Used as Conditions?
+Q2. Describe the switch Statement. What Object Types Can Be Used in the switch Clause?
+Q3. What Happens When We Forget to Put a break Statement in a case Clause of a switch?
+Q4. When Is It Preferable to Use a Switch Over an If-Then-Else Statement and Vice Versa?
+Q5. What Types of Loops Does Java Support?
+Q6. What Is an enhanced for Loop?
+Q7. How Can You Exit Anticipatedly From a Loop?
+Q8. What Is the Difference Between an Unlabeled and a Labeled break Statement?
+Q9. What Is the Difference Between an Unlabeled and a Labeled continue Statement?
+Q10. Describe the Execution Flow Inside a try-catch-finally Construct.
+Q11. In Which Situations the finally Block May Not Be Executed?
+Q12. What Is the Result of Executing the Following Code?
+Q13. In Which Situations try-finally Block Might Be Used Even When Exceptions Might Not Be Thrown?
+Q14. How Does try-with-resources Work?
+Q1. What Is an Exception?
+Q2. What Is the Purpose of the Throw and Throws Keywords?
+Q3. How Can You Handle an Exception?
+Q4. How Can You Catch Multiple Exceptions?
+Q5. What Is the Difference Between a Checked and an Unchecked Exception?
+Q6. What Is the Difference Between an Exception and Error?
+Q7. What Exception Will Be Thrown Executing the Following Code Block?
+Q8. What Is Exception Chaining?
+Q9. What Is a Stacktrace and How Does It Relate to an Exception?
+Q10. Why Would You Want to Subclass an Exception?
+Q11. What Are Some Advantages of Exceptions?
+Q12. Can You Throw Any Exception Inside a Lambda Expression's Body?
+Q13. What Are the Rules We Need to Follow When Overriding a Method That Throws an Exception?
+Q14. Will the Following Code Compile?
+Q15. Is There Any Way of Throwing a Checked Exception from a Method That Does Not Have a Throws Clause?
+Q1. What Are Annotations? What Are Their Typical Use Cases?
+Q2. Describe Some Useful Annotations from the Standard Library.
+Q3. How Can You Create an Annotation?
+Q4. What Object Types Can Be Returned from an Annotation Method Declaration?
+Q5. Which Program Elements Can Be Annotated?
+Q6. Is There a Way to Limit the Elements in Which an Annotation Can Be Applied?
+Q7. What Are Meta-Annotations?
+Q8. What Are Repeating Annotations?
+Q9. How Can You Retrieve Annotations? How Does This Relate to Its Retention Policy?
+Q10. Will the Following Code Compile?
+Q11. Is It Possible to Extend Annotations?
+Q1. What Is Spring Framework?
+Q2. What Are the Benefits of Using Spring?
+Q3.What Spring Sub-Projects Do You Know? Describe Them Briefly.
+Q4. What Is Dependency Injection?
+Q5. How Can We Inject Beans in Spring?
+Q6. Which Is the Best Way of Injecting Beans and Why?
+Q7. What Is the Difference Between BeanFactory and ApplicationContext?
+Q8.What Is a Spring Bean?
+Q9. What Is the Default Bean Scope in Spring Framework?
+Q10. How to Define the Scope of a Bean?
+Q11. Are Singleton Beans Thread-Safe?
+Q12. What Does the Spring Bean Life Cycle Look Like?
+Q13. What Is the Spring Java-Based Configuration?
+Q14. Can We Have Multiple Spring Configuration Files in One Project?
+Q15. What Is Spring Security?
+Q16. What Is Spring Boot?
+Q17. Name Some of the Design Patterns Used in the Spring Framework?
+Q18. How Does the Scope Prototype Work?
+Q19. How to Get ServletContext and ServletConfig Objects in a Spring Bean?
+Q20. What Is a Controller in Spring MVC?
+Q21. How Does the @RequestMapping Annotation Work?
+Q22. What Is Spring Jdbctemplate Class and How to Use It?
+Q23. How to Enable Transactions in Spring and What Are Their Benefits?
+Q24. What Is Spring DAO?
+Q25. What Is Aspect-Oriented Programming?
+Q26. What Are Aspect, Advice, Pointcut, and JoinPoint in AOP?
+Q27. What Is Weaving?
+Q28. What Is Reactive Programming?
+Q29. What Is Spring WebFlux?
+Q30. What Are the Mono and Flux Types?
+Q31. What Is the Use of WebClient and WebTestClient?
+Q32. What Are the Disadvantages of Using Reactive Streams?
+Q33. Is Spring 5 Compatible With Older Versions of Java?
+Q34. How Ow Spring 5 Integrates With JDK 9 Modularity?
+Q35. Can We Use Both Web MVC and WebFlux in the Same Application?
